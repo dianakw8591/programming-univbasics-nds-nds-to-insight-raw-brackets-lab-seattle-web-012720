@@ -11,6 +11,7 @@ def directors_totals(nds)
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   result = {}
   director_count = 0
-  while director_count < nds.length
+  while director_count < nds.length do
+    
 end
 
