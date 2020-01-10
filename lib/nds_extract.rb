@@ -1,5 +1,6 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
+require 'pp'
 
 File.open ("directors_pp.rb", "w") do |f|
   PP.pp(directors_database, f)
