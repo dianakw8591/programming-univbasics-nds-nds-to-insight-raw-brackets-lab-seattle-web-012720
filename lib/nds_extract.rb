@@ -14,6 +14,6 @@ def directors_totals(nds)
   while director_count < nds.length do
     movie_count = 0
     while movie_count < nds[director_count][:movies].length do
-      result 
+      result[]
 end
 
