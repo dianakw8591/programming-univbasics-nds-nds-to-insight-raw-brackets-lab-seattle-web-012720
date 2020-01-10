@@ -2,7 +2,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
 File.open ("directors_pp.rb", "w") do |f|
-  PP.pp 
+  PP.pp(directors_database, f)
 
 def directors_totals(nds)
   # Remember, it's always OK to pretty print what you get *in* to make sure
